@@ -4,10 +4,8 @@ package pfe.smi6.realisepar.marouaneadnane.alielouarma.encadrepar.aitabdelouahed
 import android.app.Activity;
 import android.content.Context;
 import android.media.MediaPlayer;
-import android.os.Bundle;
-import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Button;
+
 
 public class SokobanSetting extends Activity {
 	private static MediaPlayer soundHome;
@@ -23,10 +21,12 @@ public class SokobanSetting extends Activity {
 
 	public static void stopPlayingSound(OnClickListener onClickListener)
 	{
-		if(!soundHome.isPlaying())
+		if(soundHome.isPlaying())
 		{
-			soundHome.stop();
+			soundHome.release();
 			soundHome = null;
+		}else{
+			soundHome.start();
 		}
 	}
 
