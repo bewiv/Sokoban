@@ -202,7 +202,7 @@ public class SokobanGameView extends View {
 		BitmapFactory.Options options = new BitmapFactory.Options();
 		options.inScaled = false;
 		
-		// get the image
+		// get the image  serie ice age 
 		if(SokobanLevelMenuActivity.series==0){
 			scrat_down = BitmapFactory.decodeResource(resources, R.drawable.scrat_down, options);
 			scrat_down_on_target = BitmapFactory.decodeResource(resources, R.drawable.scrat_down_on_target, options);
@@ -222,6 +222,7 @@ public class SokobanGameView extends View {
 			targetBitmap = BitmapFactory.decodeResource(resources, R.drawable.target, options);
 			wallBitmap = BitmapFactory.decodeResource(resources, R.drawable.wall, options);
 		}
+		/* serie 2 */
 		else if(SokobanLevelMenuActivity.series==1){
 			scrat_down = BitmapFactory.decodeResource(resources, R.drawable.scrat_down, options);
 			scrat_down_on_target = BitmapFactory.decodeResource(resources, R.drawable.scrat_down_on_target, options);
@@ -241,6 +242,7 @@ public class SokobanGameView extends View {
 			targetBitmap = BitmapFactory.decodeResource(resources, R.drawable.target, options);
 			wallBitmap = BitmapFactory.decodeResource(resources, R.drawable.wall_meltdown, options);
 		}
+		/* serie 3 */
 		else if(SokobanLevelMenuActivity.series==2){
 			scrat_down = BitmapFactory.decodeResource(resources, R.drawable.scrat_down, options);
 			scrat_down_on_target = BitmapFactory.decodeResource(resources, R.drawable.scrat_down_on_target, options);
@@ -260,6 +262,7 @@ public class SokobanGameView extends View {
 			targetBitmap = BitmapFactory.decodeResource(resources, R.drawable.target, options);
 			wallBitmap = BitmapFactory.decodeResource(resources, R.drawable.wall_drift, options);
 		}
+		/* serie 4 */
 		else if(SokobanLevelMenuActivity.series==3){
 			scrat_down = BitmapFactory.decodeResource(resources, R.drawable.scrat_down, options);
 			scrat_down_on_target = BitmapFactory.decodeResource(resources, R.drawable.scrat_down_on_target, options);
