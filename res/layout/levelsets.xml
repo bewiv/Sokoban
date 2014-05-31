@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:gravity="center_vertical">
+
+	<RelativeLayout android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent" 
+	    android:gravity="center_vertical" 
+	    android:background="@drawable/bg_menu_series"
+	    android:layout_above="@+id/ad">
+		
+		<Button
+		    android:id="@+id/levelsiceageButton"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:onClick="onButtonClicked"
+		    android:background="@drawable/custom_button_selector"
+		    android:layout_marginBottom="5dp"
+		    android:textColor="#ffffff"
+		    android:text="Ice Age (easy)" />
+		
+		<Button
+		    android:id="@+id/levelsTheMeltdownButton"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@id/levelsiceageButton"
+		    android:onClick="onButtonClicked"
+		    android:background="@drawable/custom_button_selector"
+		    android:layout_marginBottom="5dp"
+		    android:textColor="#ffffff"
+		    android:text="The Meltdown" />
+		
+		<Button
+		    android:id="@+id/levelsDownOfTheDinosaursButton"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@id/levelsTheMeltdownButton"
+		    android:onClick="onButtonClicked"
+		    android:background="@drawable/custom_button_selector"
+		    android:layout_marginBottom="5dp"
+		    android:textColor="#ffffff"
+		    android:text="Down Of The Dinosaurs" />
+		
+		<Button
+		    android:id="@+id/levelsContinentalDriftButton"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@id/levelsDownOfTheDinosaursButton"
+		    android:onClick="onButtonClicked"
+		    android:background="@drawable/custom_button_selector"
+		    android:layout_marginBottom="5dp"
+		    android:textColor="#ffffff"
+		    android:text="Continental Drift" />
+		
+	</RelativeLayout>
+
+</RelativeLayout>

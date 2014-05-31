@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:gravity="center_vertical">
+
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_above="@+id/ad"
+	    android:background="@drawable/bg_menu"
+	    android:gravity="center_vertical">
+
+		<Button
+		    android:id="@+id/startbutton"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignLeft="@+id/settingsbutton"
+		    android:layout_alignParentTop="true"
+		    android:layout_alignRight="@+id/settingsbutton"
+		    android:layout_marginBottom="2dp"
+		    android:layout_marginTop="166dp"
+		    android:background="@drawable/custom_button_selector"
+		    android:text="Start"
+		    android:textColor="#ffffff"
+		    android:textStyle="bold" />
+
+		<Button
+		    android:id="@+id/settingsbutton"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/startbutton"
+		    android:layout_centerHorizontal="true"
+		    android:layout_marginBottom="2dp"
+		    android:background="@drawable/custom_button_selector"
+		    android:text="  Settings  "
+		    android:textColor="#ffffff"
+		    android:textStyle="bold" />
+
+		<Button
+		    android:id="@+id/aboutbutton"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignLeft="@+id/settingsbutton"
+		    android:layout_alignRight="@+id/settingsbutton"
+		    android:layout_below="@+id/settingsbutton"
+		    android:text="About"
+		    android:textStyle="bold"
+		    android:layout_marginBottom="2dp"
+		    android:background="@drawable/custom_button_selector"
+		    android:textColor="#ffffff" />
+
+		<Button
+		    android:id="@+id/exitbutton"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignLeft="@+id/startbutton"
+		    android:layout_alignRight="@+id/aboutbutton"
+		    android:layout_below="@+id/aboutbutton"
+		    android:layout_marginBottom="2dp"
+		    android:background="@drawable/custom_button_selector"
+		    android:text="Exit"
+		    android:textColor="#ffffff"
+		    android:textStyle="bold" />
+
+		<ImageButton
+		    android:id="@+id/imageButton"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:layout_marginLeft="24dp"
+		    android:layout_marginTop="15dp"
+		    android:src="@drawable/abc_ab_bottom_solid_dark_holo" />
+
+	</RelativeLayout>
+
+</LinearLayout>
