@@ -264,22 +264,22 @@ public class SokobanGameView extends View {
 		}
 		/* serie 4 */
 		else if(SokobanLevelMenuActivity.series==3){
-			scrat_down = BitmapFactory.decodeResource(resources, R.drawable.scrat_down, options);
-			scrat_down_on_target = BitmapFactory.decodeResource(resources, R.drawable.scrat_down_on_target, options);
-			scrat_left = BitmapFactory.decodeResource(resources, R.drawable.scrat__left, options);
-			scrat_left_on_target = BitmapFactory.decodeResource(resources, R.drawable.scrat_left_on_target, options);
-			scrat_right = BitmapFactory.decodeResource(resources, R.drawable.scrat_right, options);
-			scrat_right_on_target = BitmapFactory.decodeResource(resources, R.drawable.scrat_right_on_target, options);
-			scrat_up = BitmapFactory.decodeResource(resources, R.drawable.scrat_up, options);
-			scrat_up_on_target = BitmapFactory.decodeResource(resources, R.drawable.scrat_up_on_target, options);
+			scrat_down = BitmapFactory.decodeResource(resources, R.drawable.scrat_down_4, options);
+			scrat_down_on_target = BitmapFactory.decodeResource(resources, R.drawable.scrat_down_on_target_4, options);
+			scrat_left = BitmapFactory.decodeResource(resources, R.drawable.scrat__left_4, options);
+			scrat_left_on_target = BitmapFactory.decodeResource(resources, R.drawable.scrat_left_on_target_4, options);
+			scrat_right = BitmapFactory.decodeResource(resources, R.drawable.scrat_right_4, options);
+			scrat_right_on_target = BitmapFactory.decodeResource(resources, R.drawable.scrat_right_on_target_4, options);
+			scrat_up = BitmapFactory.decodeResource(resources, R.drawable.scrat_up_4, options);
+			scrat_up_on_target = BitmapFactory.decodeResource(resources, R.drawable.scrat_up_on_target_4, options);
 			
-			chestnutOnFloorBitmap = BitmapFactory.decodeResource(resources, R.drawable.acorns_on_floor, options);
-			chestnutOnTargetBitmap = BitmapFactory.decodeResource(resources, R.drawable.acorns_on_target, options);
-			floorBitmap = BitmapFactory.decodeResource(resources, R.drawable.floor, options);
-			scratOnFloorBitmap = BitmapFactory.decodeResource(resources, R.drawable.scrat_right, options);
-			scratOnTargetBitmap = BitmapFactory.decodeResource(resources, R.drawable.scrat_right_on_target, options);
+			chestnutOnFloorBitmap = BitmapFactory.decodeResource(resources, R.drawable.acorns_on_floor_4, options);
+			chestnutOnTargetBitmap = BitmapFactory.decodeResource(resources, R.drawable.acorns_on_target_4, options);
+			floorBitmap = BitmapFactory.decodeResource(resources, R.drawable.floor_4, options);
+			scratOnFloorBitmap = BitmapFactory.decodeResource(resources, R.drawable.scrat_right_4, options);
+			scratOnTargetBitmap = BitmapFactory.decodeResource(resources, R.drawable.scrat_right_on_target_4, options);
 			outsideBitmap = BitmapFactory.decodeResource(resources, R.drawable.outside, options);
-			targetBitmap = BitmapFactory.decodeResource(resources, R.drawable.target, options);
+			targetBitmap = BitmapFactory.decodeResource(resources, R.drawable.target_4, options);
 			wallBitmap = BitmapFactory.decodeResource(resources, R.drawable.wall_drift, options);
 		}
 		float scaleFactor = metrics.tileSize / 96.0f;
