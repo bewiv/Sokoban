@@ -224,23 +224,23 @@ public class SokobanGameView extends View {
 		}
 		/* serie 2 */
 		else if(SokobanLevelMenuActivity.series==1){
-			scrat_down = BitmapFactory.decodeResource(resources, R.drawable.scrat_down, options);
-			scrat_down_on_target = BitmapFactory.decodeResource(resources, R.drawable.scrat_down_on_target, options);
-			scrat_left = BitmapFactory.decodeResource(resources, R.drawable.scrat__left, options);
-			scrat_left_on_target = BitmapFactory.decodeResource(resources, R.drawable.scrat_left_on_target, options);
-			scrat_right = BitmapFactory.decodeResource(resources, R.drawable.scrat_right, options);
-			scrat_right_on_target = BitmapFactory.decodeResource(resources, R.drawable.scrat_right_on_target, options);
-			scrat_up = BitmapFactory.decodeResource(resources, R.drawable.scrat_up, options);
-			scrat_up_on_target = BitmapFactory.decodeResource(resources, R.drawable.scrat_up_on_target, options);
+			scrat_down = BitmapFactory.decodeResource(resources, R.drawable.scrat_down_2, options);
+			scrat_down_on_target = BitmapFactory.decodeResource(resources, R.drawable.scrat_down_on_target_2, options);
+			scrat_left = BitmapFactory.decodeResource(resources, R.drawable.scrat__left_2, options);
+			scrat_left_on_target = BitmapFactory.decodeResource(resources, R.drawable.scrat_left_on_target_2, options);
+			scrat_right = BitmapFactory.decodeResource(resources, R.drawable.scrat_right_2, options);
+			scrat_right_on_target = BitmapFactory.decodeResource(resources, R.drawable.scrat_right_on_target_2, options);
+			scrat_up = BitmapFactory.decodeResource(resources, R.drawable.scrat_up_2, options);
+			scrat_up_on_target = BitmapFactory.decodeResource(resources, R.drawable.scrat_up_on_target_2, options);
 			
-			chestnutOnFloorBitmap = BitmapFactory.decodeResource(resources, R.drawable.acorns_on_floor, options);
-			chestnutOnTargetBitmap = BitmapFactory.decodeResource(resources, R.drawable.acorns_on_target, options);
-			floorBitmap = BitmapFactory.decodeResource(resources, R.drawable.floor, options);
-			scratOnFloorBitmap = BitmapFactory.decodeResource(resources, R.drawable.scrat_right, options);
-			scratOnTargetBitmap = BitmapFactory.decodeResource(resources, R.drawable.scrat_right_on_target, options);
+			chestnutOnFloorBitmap = BitmapFactory.decodeResource(resources, R.drawable.acorns_on_floor_2, options);
+			chestnutOnTargetBitmap = BitmapFactory.decodeResource(resources, R.drawable.acorns_on_target_2, options);
+			floorBitmap = BitmapFactory.decodeResource(resources, R.drawable.floor_2, options);
+			scratOnFloorBitmap = BitmapFactory.decodeResource(resources, R.drawable.scrat_right_2, options);
+			scratOnTargetBitmap = BitmapFactory.decodeResource(resources, R.drawable.scrat_right_on_target_2, options);
 			outsideBitmap = BitmapFactory.decodeResource(resources, R.drawable.outside, options);
-			targetBitmap = BitmapFactory.decodeResource(resources, R.drawable.target, options);
-			wallBitmap = BitmapFactory.decodeResource(resources, R.drawable.wall_meltdown, options);
+			targetBitmap = BitmapFactory.decodeResource(resources, R.drawable.target_2, options);
+			wallBitmap = BitmapFactory.decodeResource(resources, R.drawable.wall_downofthedinosaurs, options);
 		}
 		/* serie 3 */
 		else if(SokobanLevelMenuActivity.series==2){
@@ -260,7 +260,7 @@ public class SokobanGameView extends View {
 			scratOnTargetBitmap = BitmapFactory.decodeResource(resources, R.drawable.scrat_right_on_target, options);
 			outsideBitmap = BitmapFactory.decodeResource(resources, R.drawable.outside, options);
 			targetBitmap = BitmapFactory.decodeResource(resources, R.drawable.target, options);
-			wallBitmap = BitmapFactory.decodeResource(resources, R.drawable.wall_downofthedinosaurs, options);
+			wallBitmap = BitmapFactory.decodeResource(resources, R.drawable.wall_meltdown, options);
 		}
 		/* serie 4 */
 		else if(SokobanLevelMenuActivity.series==3){
