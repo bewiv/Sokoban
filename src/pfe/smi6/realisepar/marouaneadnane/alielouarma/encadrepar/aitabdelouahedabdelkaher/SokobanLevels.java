@@ -321,7 +321,7 @@ public class SokobanLevels {
 				
 		});
 
-		// level: 4
+		// Serie 1
 		levelMaps.add(new String[][] {
 				{
 					"####''"

@@ -29,7 +29,7 @@ public class SokobanMenuActivity extends Activity {
 		setContentView(R.layout.menu);
 
 		final SokobanMenuActivity self = this;
-		//soundHome.startPlayingSound(this);
+		soundHome.startPlayingSound(this);
 		Button playButton = (Button) findViewById(R.id.startbutton);
 		playButton.setOnClickListener(new OnClickListener() {
 			@Override
@@ -91,6 +91,7 @@ public class SokobanMenuActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				finish();
+				soundHome.stopPlayingSound(this);
 				
 			}
 		});

@@ -69,11 +69,10 @@
 		    android:id="@+id/imageButton"
 		    android:layout_width="wrap_content"
 		    android:layout_height="wrap_content"
-		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentRight="true"
 		    android:layout_alignParentTop="true"
-		    android:layout_marginLeft="24dp"
-		    android:layout_marginTop="15dp"
-		    android:src="@drawable/abc_ab_bottom_solid_dark_holo" />
+		    android:layout_marginTop="104dp"
+		    android:src="@drawable/sound_off" />
 
 	</RelativeLayout>
 
