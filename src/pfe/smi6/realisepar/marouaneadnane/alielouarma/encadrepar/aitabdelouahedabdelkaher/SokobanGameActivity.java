@@ -131,7 +131,7 @@ public class SokobanGameActivity extends Activity {
 	public void showHelp() {
 		AlertDialog.Builder builder = new AlertDialog.Builder(this);
 		builder
-		.setMessage("Push all acorns on the orange targets to complete a level. Complete levels to unlock new ones.\n\nZoom in and out using the volume control.\n\nUndo moves with the back button.");
+		.setMessage("Push all acorns on the targets to complete a level. Complete levels to unlock new ones.\n\nZoom in and out using the volume control.\n\nUndo moves with the back button.");
 		builder.setPositiveButton("Ok", null);
 		builder.create().show();
 	}

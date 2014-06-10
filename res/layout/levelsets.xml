@@ -13,7 +13,7 @@
 	    android:layout_above="@+id/ad">
 		
 		<Button
-		    android:id="@+id/levelsiceageButton"
+		    android:id="@+id/levelsContinentalDriftButton"
 		    android:layout_width="fill_parent"
 		    android:layout_height="wrap_content"
 		    android:onClick="onButtonClicked"
@@ -26,7 +26,7 @@
 		    android:id="@+id/levelsTheMeltdownButton"
 		    android:layout_width="fill_parent"
 		    android:layout_height="wrap_content"
-		    android:layout_below="@id/levelsiceageButton"
+		    android:layout_below="@id/levelsContinentalDriftButton"
 		    android:onClick="onButtonClicked"
 		    android:background="@drawable/custom_button_selector"
 		    android:layout_marginBottom="5dp"
@@ -45,7 +45,7 @@
 		    android:text="Down Of The Dinosaurs" />
 		
 		<Button
-		    android:id="@+id/levelsContinentalDriftButton"
+		    android:id="@+id/levelsiceageButton"
 		    android:layout_width="fill_parent"
 		    android:layout_height="wrap_content"
 		    android:layout_below="@id/levelsDownOfTheDinosaursButton"
