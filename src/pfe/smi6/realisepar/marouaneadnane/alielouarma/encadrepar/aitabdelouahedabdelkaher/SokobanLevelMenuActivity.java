@@ -33,10 +33,10 @@ public class SokobanLevelMenuActivity extends Activity {
 		case R.id.levelsDownOfTheDinosaursButton:
 			index = 2;
 			break;
-		case R.id.levelsContinentalDriftButton:
+		case R.id.levelsiceageButton:
 			index = 3;
 			break;
-		case R.id.levelsiceageButton:
+		case R.id.levelsContinentalDriftButton:
 			index = 0;
 			break;
 		}

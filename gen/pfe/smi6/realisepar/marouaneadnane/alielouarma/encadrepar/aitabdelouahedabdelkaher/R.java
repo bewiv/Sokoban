@@ -1145,7 +1145,7 @@ containing a value of this type.
     }
     public static final class id {
         public static final int about_text=0x7f06003c;
-        public static final int aboutbutton=0x7f060046;
+        public static final int aboutbutton=0x7f060047;
         public static final int action_bar=0x7f06001c;
         public static final int action_bar_activity_content=0x7f060015;
         public static final int action_bar_container=0x7f06001b;
@@ -1172,7 +1172,7 @@ containing a value of this type.
         public static final int dropdown=0x7f06000f;
         public static final int edit_query=0x7f060030;
         public static final int end=0x7f060013;
-        public static final int exitbutton=0x7f060047;
+        public static final int exitbutton=0x7f060048;
         public static final int expand_activities_button=0x7f060026;
         public static final int expanded_menu=0x7f06002c;
         public static final int help_menu=0x7f06004b;
@@ -1181,11 +1181,11 @@ containing a value of this type.
         public static final int icon=0x7f06002a;
         public static final int ifRoom=0x7f06000a;
         public static final int image=0x7f060027;
-        public static final int imageButton=0x7f060048;
-        public static final int levelsContinentalDriftButton=0x7f060042;
+        public static final int imageButton=0x7f060044;
+        public static final int levelsContinentalDriftButton=0x7f06003f;
         public static final int levelsDownOfTheDinosaursButton=0x7f060041;
         public static final int levelsTheMeltdownButton=0x7f060040;
-        public static final int levelsiceageButton=0x7f06003f;
+        public static final int levelsiceageButton=0x7f060042;
         public static final int listMode=0x7f060001;
         public static final int list_item=0x7f060029;
         public static final int middle=0x7f060012;
@@ -1206,14 +1206,14 @@ containing a value of this type.
         public static final int search_plate=0x7f060036;
         public static final int search_src_text=0x7f060037;
         public static final int search_voice_btn=0x7f06003b;
-        public static final int settingsbutton=0x7f060045;
+        public static final int settingsbutton=0x7f060046;
         public static final int shareHighScoreMenuItem=0x7f060049;
         public static final int shortcut=0x7f06002e;
         public static final int showCustom=0x7f060007;
         public static final int showHome=0x7f060004;
         public static final int showTitle=0x7f060006;
         public static final int split_action_bar=0x7f06001e;
-        public static final int startbutton=0x7f060044;
+        public static final int startbutton=0x7f060045;
         public static final int submit_area=0x7f060039;
         public static final int tabMode=0x7f060002;
         public static final int title=0x7f06002b;
